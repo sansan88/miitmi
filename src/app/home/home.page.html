@@ -1,20 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Miitmi
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense" class="ion-no-padding">
+    <ion-toolbar class="ion-no-padding">
+      <ion-title size="large" class="ion-no-padding">Miitmi</ion-title>
     </ion-toolbar>
   </ion-header>
+    <br>
+    <ion-text>
+      Gemeinsam gegen Corona! Bleib zu Hause, aber im Kontakt mit deinem Freundeskreis. Verabrede dich jetzt zum Video-Chat.
+    </ion-text>
+    <br><br>
+    <br>
+    <strong>Lade deine Freunde ein!</strong><br>
+  
+    <miitmi-web-component invite="EINLADEN!" video="VIDEOCHAT STARTEN"></miitmi-web-component>
+    <br>
+    <ion-text>
+      Miitmi ist ein Projekt der Freiwilligen-Plattform <a href="https://www.hilf-jetzt.ch">hilf-jetzt.ch</a>. Wir vermitteln unkomplizierte Soforthilfe für Menschen, die zur Risikogruppen der Corona-Krise zählen.
+    </ion-text>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-text>
+      <a href="https://stenciljs.com/">
+        <ion-icon name="logo-stencil"></ion-icon>
+      </a>
+      <a href="https://www.npmjs.com/package/miitmi-web-component">
+    
+        <ion-icon name="logo-npm"></ion-icon>
+      </a>
+      <a href="https://github.com/sansan88/miitmi-web-component">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+    </ion-text>
+   
 </ion-content>
