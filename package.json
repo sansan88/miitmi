@@ -1,8 +1,8 @@
 {
   "name": "miitmi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Sandro Scalco & Daniel Graf",
-  "homepage": "miitmi.web.app",
+  "homepage": "miitmi.ch",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,7 +28,7 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^5.0.5",
     "core-js": "^2.5.4",
-    "miitmi-web-component": "^1.1.0",
+    "miitmi-web-component": "^1.1.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
@@ -60,7 +60,7 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-  "description": "Miitmi",
+  "description": "Miitmi ist ein Projekt der Freiwilligen-Plattform hilf-jetzt.ch. Wir vermitteln unkomplizierte Soforthilfe für Menschen, die zur Risikogruppen der Corona-Krise zählen.",
   "resolutions": {
     "@babel/preset-env": "^7.8.7"
   }
