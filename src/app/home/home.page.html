@@ -1,4 +1,6 @@
-<ion-header [translucent]="true" color="secondary">
+<ion-content [fullscreen]="true" class="ion-padding">
+
+<!--<ion-header [translucent]="true" color="secondary">
   <ion-toolbar color="secondary">
     <ion-title>
       miitmi
@@ -17,36 +19,39 @@
     </ion-toolbar>
   </ion-header>
 
-  <div class="ion-padding">
-    <br>
-    <ion-text>
-      Gemeinsam gegen Corona! Bleib zu Hause, aber im Kontakt mit deinem Freundeskreis. Verabrede dich jetzt zum Video-Chat.
-    </ion-text>
-    <br><br>
-    <br>
-    <strong>Lade deine Freunde ein!</strong><br>
-  
-    <miitmi-web-component invite="EINLADEN!" video="VIDEOCHAT STARTEN"></miitmi-web-component>
-    <br>
-    <ion-text>
-      Miitmi ist ein Projekt der Freiwilligen-Plattform <a href="https://www.hilf-jetzt.ch">hilf-jetzt.ch</a>. Wir vermitteln unkomplizierte Soforthilfe für Menschen, die zur Risikogruppen der Corona-Krise zählen.
-    </ion-text>
-    <ion-img class="hilfjetzt" src="assets/hilf-jetzt/hilf-jetzt-logo--text-rechts-weiss.png"></ion-img>
+  <div class="ion-padding">-->
 
-     </div>
-<!-- Footer without a border -->
+    <ion-img class="hilfjetzt" src="assets/hilf-jetzt/hilf-jetzt-logo--ohne-text.png"></ion-img>
+    <ion-text>
+      <h1>
+        <strong>
+
+          Bleibe zu Hause,<br>
+          aber in Kontakt mit Freund*innen.
+        </strong>
+      </h1>
+      <p>Privaten Video-Chat organisieren</p>
+      <miitmi-web-component invite="Einladen" video="Video-Chat starten"></miitmi-web-component>
+
+      <p>
+      Miitmi ist ein Projekt der Freiwilligen-Plattform <a href="https://www.hilf-jetzt.ch">hilf-jetzt.ch</a>. Für Video-Chats nutzen wir das Open-Source-Projekt jitsi.org.
+      </p>
+    </ion-text>
+
+
+  <!--    </div>
+Footer without a border -->
 <ion-footer class="ion-no-border">
-  <ion-toolbar>
-   
+  <ion-toolbar>  
     <!--<ion-title>Footer - No Border</ion-title>-->
-    <ion-text color="primary">
-        <a href="https://stenciljs.com/">
+      <ion-text color="primary">
+      <p>   <a href="https://stenciljs.com/">
           <ion-icon name="logo-stencil"></ion-icon> stenciljs.com 
       </a> | <a href="https://www.npmjs.com/package/miitmi-web-component">
         <ion-icon name="logo-npm"></ion-icon> npmjs.com 
       </a> | <a href="https://github.com/sansan88/miitmi">
         <ion-icon name="logo-github"></ion-icon> github.com
-      </a>
+      </a></p>
     </ion-text>
   </ion-toolbar>
 </ion-footer>
