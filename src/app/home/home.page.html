@@ -1,17 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header [translucent]="true" color="secondary">
+  <ion-toolbar color="secondary">
     <ion-title>
-      Miitmi
+      miitmi
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" class="ion-padding">
-  <ion-header collapse="condense" class="ion-no-padding">
-    <ion-toolbar class="ion-no-padding">
-      <ion-title size="large" class="ion-no-padding">Miitmi</ion-title>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="secondary">
+      <ion-title size="large">miitmi</ion-title>
+      <ion-avatar slot="end">
+        <img src="assets/icons/icon-384x384.png">
+      </ion-avatar>
     </ion-toolbar>
   </ion-header>
+
+  <div class="ion-padding">
     <br>
     <ion-text>
       Gemeinsam gegen Corona! Bleib zu Hause, aber im Kontakt mit deinem Freundeskreis. Verabrede dich jetzt zum Video-Chat.
@@ -25,20 +31,25 @@
     <ion-text>
       Miitmi ist ein Projekt der Freiwilligen-Plattform <a href="https://www.hilf-jetzt.ch">hilf-jetzt.ch</a>. Wir vermitteln unkomplizierte Soforthilfe für Menschen, die zur Risikogruppen der Corona-Krise zählen.
     </ion-text>
+    <ion-img class="hilfjetzt" src="assets/hilf-jetzt/hilf-jetzt-logo--text-rechts-weiss.png"></ion-img>
 
+     </div>
+<!-- Footer without a border -->
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+   
+    <!--<ion-title>Footer - No Border</ion-title>-->
     <ion-text color="primary">
-      <br>
         <a href="https://stenciljs.com/">
-          stenciljs.com <ion-icon name="logo-stencil"></ion-icon>
-      </a>  |  
-
-       <a href="https://www.npmjs.com/package/miitmi-web-component">
-        npmjs.com <ion-icon name="logo-npm"></ion-icon>
-      </a>  |  
-
-      <a href="https://github.com/sansan88/miitmi">
-       Github.com <ion-icon name="logo-github"></ion-icon>
+          <ion-icon name="logo-stencil"></ion-icon> stenciljs.com 
+      </a> | <a href="https://www.npmjs.com/package/miitmi-web-component">
+        <ion-icon name="logo-npm"></ion-icon> npmjs.com 
+      </a> | <a href="https://github.com/sansan88/miitmi">
+        <ion-icon name="logo-github"></ion-icon> github.com
       </a>
     </ion-text>
-   
+  </ion-toolbar>
+</ion-footer>
+
+
 </ion-content>

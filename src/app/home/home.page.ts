@@ -45,7 +45,7 @@ export class HomePage {
     public plt: Platform,
     public alertController: AlertController,
   ) {
-
+/*
 
     this.chat = {
       "url": "https://meet.jit.si/miitmi-",
@@ -71,18 +71,17 @@ export class HomePage {
       }
     });
 
-
+*/
   }
 
-  async openChat() {
+  /* async openChat() {
     await Browser.open({ url: this.chat.url });
-  }
-
+  } */
 
   /*****************************************/
   // SHARE
   /*****************************************/
-
+/*
   async openShare() {
 
     let random = Math.random().toString(36).substring(2);
@@ -156,4 +155,5 @@ export class HomePage {
       resolve();
     });
   }
+  */
 }
