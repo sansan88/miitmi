@@ -29,7 +29,7 @@
     "@ionic/angular": "^5.0.5",
     "core-js": "^2.5.4",
     "goog-webfont-dl": "^1.0.3",
-    "miitmi-web-component": "^1.1.4",
+    "miitmi-web-component": "^1.2.1",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
