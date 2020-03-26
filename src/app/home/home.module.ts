@@ -1,3 +1,4 @@
+import { AnleitungPageModule } from './../anleitung/anleitung.module';
 
 import { NgModule ,CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -8,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { HomePage } from './home.page';
 
 @NgModule({
+  //entryComponents:[AnleitungPageModule],
   imports: [
     
     CommonModule,

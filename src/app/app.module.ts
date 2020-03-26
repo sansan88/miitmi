@@ -1,4 +1,4 @@
-import { AnleitungPageModule } from './anleitung/anleitung.module';
+//import { AnleitungPageModule } from './anleitung/anleitung.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -16,7 +16,7 @@ import { CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    AnleitungPageModule,
+    
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule, 
