@@ -14,14 +14,6 @@ import {
   Router,
   ActivatedRoute
 } from '@angular/router';
-//Capacitor
-import {
-  Plugins
-} from '@capacitor/core';
-const {
-  Share,
-  Browser
-} = Plugins;
 
 @Component({
   selector: 'app-home',
