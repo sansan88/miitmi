@@ -21,6 +21,14 @@
 
   <div class="ion-padding">-->
 
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button size="small" (click)="openAnleitung()" color="secondary">
+        <ion-icon name="code-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+
+
     <div class="container">
 
     <ion-img class="hilfjetzt" src="assets/hilf-jetzt/hilf-jetzt-logo--ohne-text.png"></ion-img>
@@ -38,6 +46,7 @@
       <p>
       Miitmi ist ein Projekt der Freiwilligen-Plattform <a href="https://www.hilf-jetzt.ch">hilf-jetzt.ch</a>. Für Video-Chats nutzen wir das Open-Source-Projekt <a href="https://jitsi.org/">jitsi.org</a>.
       </p>
+
     </ion-text>
 
   </div>
@@ -53,7 +62,8 @@ Footer without a border -->
         <ion-icon name="logo-npm"></ion-icon> npmjs.com 
       </a> | <a href="https://github.com/sansan88/miitmi">
         <ion-icon name="logo-github"></ion-icon> github.com
-      </a></p>
+      </a> 
+    </p>
     </ion-text>
   </ion-toolbar>
 </ion-footer>

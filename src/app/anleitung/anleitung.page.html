@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Anleitung</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">
+        schliessen
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-text>
+    
+    <h2>So geht's:</h2>
+    <p>Folgendes Script in <ion-text color="primary">< head ></ion-text> einfügen:</p>
+    <p> 
+      < script src='https://unpkg.com/miitmi-web-component@1.2.1/dist/miitmi-web-component.js' > < /> 
+    </p>
+ 
+    <p> Web Components in <ion-text color="primary">< body ></ion-text> einfügen:</p>
+    <p> < miitmi-web-component invite="EINLADEN" video="VIDEOCHAT STARTEN"> < /> </p>
+  </ion-text>
+
+  <ion-footer class="ion-no-border">
+    <ion-toolbar>  
+      <!--<ion-title>Footer - No Border</ion-title>-->
+        <ion-text color="primary">
+        <p>   <a href="https://stenciljs.com/">
+            <ion-icon name="logo-stencil"></ion-icon> stenciljs.com 
+        </a> | <a href="https://www.npmjs.com/package/miitmi-web-component">
+          <ion-icon name="logo-npm"></ion-icon> npmjs.com 
+        </a> | <a href="https://github.com/sansan88/miitmi">
+          <ion-icon name="logo-github"></ion-icon> github.com
+        </a> 
+      </p>
+      </ion-text>
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-content>
