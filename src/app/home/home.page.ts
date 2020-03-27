@@ -41,7 +41,11 @@ export class HomePage {
     public alertController: AlertController,
   ) {
 
-
+    /*if (navigator.language.includes("fr")){
+      this.navCtrl.navigateRoot('/fr');
+    }
+    console.log(navigator.language);
+    */
   }
   async openAnleitung(){
     
