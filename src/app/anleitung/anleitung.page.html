@@ -10,27 +10,47 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-text>
-    
-    <h2>So geht's:</h2>
-    <p>Folgendes Script in <ion-text color="primary">< head ></ion-text> einfügen:</p>
-    <p> 
-      < script src='https://unpkg.com/miitmi-web-component@1.2.1/dist/miitmi-web-component.js' > < /> 
-    </p>
- 
-    <p> Web Components in <ion-text color="primary">< body ></ion-text> einfügen:</p>
-    <p> < miitmi-web-component invite="EINLADEN" video="VIDEOCHAT STARTEN"> < /> </p>
-  </ion-text>
 
-  <ion-footer class="ion-no-border">
-    <ion-toolbar>  
-      <!--<ion-title>Footer - No Border</ion-title>-->
+  <div class="container">
+
+    
+    <ion-text>
+      <p>Du möchtest miitmi auch auf deiner Webseite verwenden?</p>
+      
+      <h2>
+        So geht's:
+      </h2>
+      
+      <p>1. Folgendes Script in <ion-text color="primary">&lt;head&gt;</ion-text> einfügen:</p>
+      <pre><code>
         <ion-text color="primary">
-        <p>   <a href="https://stenciljs.com/">
+          &lt;script src='https://unpkg.com/miitmi-web-component@1.2.1/dist/miitmi-web-component.js'&gt;&lt;/&gt;
+        </ion-text>
+  </code></pre>
+  
+  
+  <p>2. Web Components in <ion-text color="primary">&lt;body&gt;</ion-text> einfügen:</p>
+    <pre><code>
+      <ion-text color="primary">
+        &lt;miitmi-web-component invite="EINLADEN" video="VIDEOCHAT STARTEN"&gt;&lt;/&gt;
+      </ion-text>
+    </code></pre>
+    
+  </ion-text>
+</div>
+  
+  
+  <!--    </div>
+    Footer without a border -->
+    <ion-footer class="ion-no-border">
+      <ion-toolbar>  
+        <!--<ion-title>Footer - No Border</ion-title>-->
+        <ion-text color="primary">
+          <p>   <a href="https://stenciljs.com/">
             <ion-icon name="logo-stencil"></ion-icon> stenciljs.com 
-        </a> | <a href="https://www.npmjs.com/package/miitmi-web-component">
-          <ion-icon name="logo-npm"></ion-icon> npmjs.com 
-        </a> | <a href="https://github.com/sansan88/miitmi">
+          </a> | <a href="https://www.npmjs.com/package/miitmi-web-component">
+            <ion-icon name="logo-npm"></ion-icon> npmjs.com 
+          </a> | <a href="https://github.com/sansan88/miitmi">
           <ion-icon name="logo-github"></ion-icon> github.com
         </a> 
       </p>

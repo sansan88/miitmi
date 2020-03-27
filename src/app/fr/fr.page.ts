@@ -19,11 +19,12 @@ import {
 } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-fr',
+  templateUrl: './fr.page.html',
+  styleUrls: ['./fr.page.scss'],
 })
-export class HomePage {
+
+export class FrPage  {
   shareSocialShareOptions: any;
   showSocialShare = false;
   chat: any;
@@ -44,7 +45,6 @@ export class HomePage {
 
   }
   async openAnleitung(){
-    
     const modal = await this.modalController.create({
       component: AnleitungPage,
       swipeToClose: true,
